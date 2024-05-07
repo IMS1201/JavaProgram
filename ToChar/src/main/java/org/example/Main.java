@@ -16,16 +16,10 @@ StringBuilder builder=new StringBuilder();
                 char res= (char) (c[i]-32);
                 builder.append(res);
             }
-            if(conditon!=false)
+            if(conditon)
             {
                 builder.append(c[i]);
-
             }
-//            else
-//            {
-//                char res= (char) (c[i]+32);
-//                System.out.print(res);
-//            }
         }
         System.out.print(builder);
     }
